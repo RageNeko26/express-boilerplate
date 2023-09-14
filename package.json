@@ -1,0 +1,23 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Express API with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RageNeko26/express-boilerplate.git"
+  },
+  "keywords": [
+    "express",
+    "typescript"
+  ],
+  "author": "RageNeko26",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RageNeko26/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RageNeko26/express-boilerplate#readme"
+}
