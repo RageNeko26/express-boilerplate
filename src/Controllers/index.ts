@@ -12,7 +12,7 @@ export const About = (req: Request, res: Response ): void => {
   })
 }
 
-export const nested = (req: Request, res: Response): void => {
+export const Nested = (req: Request, res: Response): void => {
   res.json({
     message: "I'm nested"
   })
