@@ -1,5 +1,5 @@
 import express, { Express } from "express"
-import { Home, About, Nested. OtherNest, v1 } from "./Controllers"
+import { Home, About, Nested, OtherNest, v1 } from "./Controllers"
 
 const app: Express = express()
 const port: number = 3000
