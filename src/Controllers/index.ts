@@ -23,3 +23,9 @@ export const OtherNest = (req: Request, res: Response): void => {
     message: "Other nest route"
   })
 }
+
+export const v1 = (req: Request, res: Response): void => {
+  res.json({
+    message: "Home version 1.0.0"
+  })
+}
