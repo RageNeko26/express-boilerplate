@@ -18,3 +18,8 @@ export const Nested = (req: Request, res: Response): void => {
   })
 }
 
+export const OtherNest = (req: Request, res: Response): void => {
+  res.json({
+    message: "Other nest route"
+  })
+}
