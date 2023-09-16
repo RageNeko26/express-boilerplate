@@ -29,3 +29,7 @@ export const v1 = (req: Request, res: Response): void => {
     message: "Home version 1.0.0"
   })
 }
+
+export const SaveBook = (req: Request, res: Response): void => {
+  
+}

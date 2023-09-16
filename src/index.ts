@@ -9,6 +9,8 @@ app.get("/about", About)
 app.get("/api/v1/nested", Nested)
 app.get("/api/v1/other", OtherNest)
 app.get("/api/v1", v1)
+app.post("/api/v1/book")
+
 
 app.listen(port, (): void => {
   console.log(`Server is running on port ${port}`)
