@@ -31,5 +31,13 @@ export const v1 = (req: Request, res: Response): void => {
 }
 
 export const SaveBook = (req: Request, res: Response): void => {
-  
+    const title = req.body.title
+    const author = req.body.author
+
+    res.status(201).json({
+      data: {
+        title: title,
+        author: author,
+      },
+    })
 }
